@@ -1,0 +1,58 @@
+body {
+  background-color: #d8c3f0; /* Soft Lavender */
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #4a148c; /* Dark Purple */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  background: #b39ddb; /* Light Purple */
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.display-box {
+  background: #6a1b9a; /* Medium Purple */
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  background: #9575cd; /* Light Purple */
+  border: none;
+  color: white;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background: #7e57c2; /* Darker Purple */
+}
+
+.special-button {
+  background: #ff80ab; /* Cute Pink */
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
